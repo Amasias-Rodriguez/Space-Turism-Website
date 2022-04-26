@@ -4,3 +4,28 @@
     box-sizing: border-box;
     font-family: monospace;
 }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+body{
+    background-image: url(/imagenes/background-home-desktop.jpg);
+    color: #fff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav ul{
+    display: flex;
+}
+
+.header-nav ul li{
+    list-style: none;
+}
